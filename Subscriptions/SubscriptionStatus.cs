@@ -13,5 +13,6 @@ namespace Domain.Subscriptions
         public SubscriptionStatus(string name) { }
 
         public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
