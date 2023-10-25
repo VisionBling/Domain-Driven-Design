@@ -8,5 +8,6 @@ namespace Domain.Subscriptions
 {
     public class SubscriptionStatus
     {
+      public SubscriptionStatus() { }
     }
 }
