@@ -8,7 +8,6 @@ namespace Domain.Subscriptions
 {
     public class SubscriptionStatus
     {
-      public SubscriptionStatus() { }
 
 
         public int Id { get; set; }
