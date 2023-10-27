@@ -8,5 +8,6 @@ namespace Domain.Hospitals
 {
     public class Veterinarian
     {
+        public Veterinarian() { }
     }
 }
