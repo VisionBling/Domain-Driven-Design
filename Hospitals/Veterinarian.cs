@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Hospitals
 {
-    internal class Veterinarian
+    public class Veterinarian
     {
     }
 }
