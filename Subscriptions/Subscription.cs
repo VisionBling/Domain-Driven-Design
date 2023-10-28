@@ -8,6 +8,9 @@ namespace Domain.Subscriptions
 {
     public class Subscription
     {
-        int SubscriptionID { get; set; }
+       public int SubscriptionID { get; set; }
+       public string SubscriptionName { get; set; }
+
+        public string SubscriptionType { get; set; }
     }
 }
