@@ -12,5 +12,7 @@ namespace Domain.Subscriptions
        public string SubscriptionName { get; set; }
 
         public string SubscriptionType { get; set; }
+
+        public DateTime CreatedDate { get; set; }
     }
 }
