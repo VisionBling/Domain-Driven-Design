@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Subscriptions
 {
-    internal class Subscription
+    public class Subscription
     {
+        int SubscriptionID { get; set; }
     }
 }
