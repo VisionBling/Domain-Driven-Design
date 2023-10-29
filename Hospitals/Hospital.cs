@@ -9,5 +9,7 @@ namespace Domain.Hospitals
     public class Hospital
     {
      public Hospital() { }
+
+     public Hospital(string name) { }
     }
 }
