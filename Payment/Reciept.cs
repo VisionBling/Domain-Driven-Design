@@ -11,5 +11,7 @@ namespace Domain.Payment
         public Reciept() { }
 
         public Reciept(int id) { }
+
+        public int Id { get; set; }
     }
 }
