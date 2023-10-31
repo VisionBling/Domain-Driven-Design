@@ -9,5 +9,7 @@ namespace Domain.Payment
     public class Reciept
     {
         public Reciept() { }
+
+        public Reciept(int id) { }
     }
 }
