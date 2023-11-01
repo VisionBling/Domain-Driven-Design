@@ -10,7 +10,7 @@ namespace Domain.Payment
     {
         public int Id { get; set; }
         public string? Name { get; set; }
-       // public string? Description { get; set; }
+        public string? Description { get; set; }
 
        // public int? Balance { get; set;} = 0;
        // public int? TotalAmount { get; set;} = 0;
