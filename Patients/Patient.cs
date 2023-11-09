@@ -25,7 +25,7 @@ namespace Domain.Patients
 
         public void AddMedicalRecord(MedicalRecords record)
         {
-            //MedicalRecords.Add(record);
+            MedicalRecords.Add(record);
         }
     }
 }
