@@ -12,7 +12,7 @@ namespace Domain.Patients
         public string Name { get; private set; }
         public string Species { get; private set; } // e.g., Dog, Cat
         public DateTime DateOfBirth { get; private set; }
-        //public ICollection<MedicalRecords> MedicalRecords { get; private set; }
+        public ICollection<MedicalRecords> MedicalRecords { get; private set; }
 
         public Patient(Guid id, string name, string species, DateTime dateOfBirth)
         {
@@ -25,7 +25,7 @@ namespace Domain.Patients
 
         public void AddMedicalRecord(MedicalRecords record)
         {
-            MedicalRecords.Add(record);
+            //MedicalRecords.Add(record);
         }
     }
 }
