@@ -18,14 +18,14 @@ namespace Domain.Patients
         {
             Id = id;
            Name = name;
-           Species = species;
-            DateOfBirth = dateOfBirth;
-           MedicalRecords = new List<MedicalRecords>();
+           //Species = species;
+            //DateOfBirth = dateOfBirth;
+          // MedicalRecords = new List<MedicalRecords>();
         }
 
         public void AddMedicalRecord(MedicalRecords record)
         {
-            MedicalRecords.Add(record);
+            //MedicalRecords.Add(record);
         }
     }
 }
