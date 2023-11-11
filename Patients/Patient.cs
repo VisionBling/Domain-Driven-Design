@@ -19,7 +19,7 @@ namespace Domain.Patients
             Id = id;
            Name = name;
            Species = species;
-          // DateOfBirth = dateOfBirth;
+           DateOfBirth = dateOfBirth;
            //MedicalRecords = new List<MedicalRecords>();
         }
 
