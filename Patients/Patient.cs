@@ -17,7 +17,7 @@ namespace Domain.Patients
         public Patient(Guid id, string name, string species, DateTime dateOfBirth)
         {
             Id = id;
-           Name = name;
+           //Name = name;
            //Species = species;
            //DateOfBirth = dateOfBirth;
           // MedicalRecords = new List<MedicalRecords>();
