@@ -12,7 +12,7 @@ namespace Domain.Subscriptions
     {
         public Subscription(string name) { }
        public int SubscriptionID { get; set; }
-      // public string SubscriptionName { get; set; }
+       public string SubscriptionName { get; set; }
 
       //  public string SubscriptionType { get; set; }
 
