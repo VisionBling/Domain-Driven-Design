@@ -18,10 +18,10 @@ namespace Domain.Subscriptions
         public DateTime CreatedDate { get; set; }
 
         // Constructor and methods
-        public Subscription(string SubscriptionID, string name, string species, DateTime dateOfBirth)
+        public Subscription(string SubscriptionID, string SubscriptionName, string species, DateTime dateOfBirth)
         {
             SubscriptionID = SubscriptionID;
-            Name = name;
+            SubscriptionName = SubscriptionName;
             Species = species;
             DateOfBirth = dateOfBirth;
             MedicalRecords = new List<MedicalRecords>();
