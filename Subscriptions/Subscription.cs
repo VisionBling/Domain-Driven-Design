@@ -24,7 +24,6 @@ namespace Domain.Subscriptions
             SubscriptionName = SubscriptionName;
             SubscriptionType = SubscriptionType;
             CreatedDate = CreatedDate;
-            MedicalRecords = new List<MedicalRecords>();
         }
     }
 }
