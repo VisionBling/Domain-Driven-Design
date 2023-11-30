@@ -18,9 +18,9 @@ namespace Domain.Subscriptions
         public DateTime CreatedDate { get; set; }
 
         // Constructor and methods
-        public Subscription(Guid id, string name, string species, DateTime dateOfBirth)
+        public Subscription(string SubscriptionID, string name, string species, DateTime dateOfBirth)
         {
-            Id = id;
+            SubscriptionID = SubscriptionID;
             Name = name;
             Species = species;
             DateOfBirth = dateOfBirth;
