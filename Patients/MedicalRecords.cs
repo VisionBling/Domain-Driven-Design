@@ -8,5 +8,6 @@ namespace Domain.Patients
 {
     public class MedicalRecords
     {
+        public MedicalRecords() { }
     }
 }
