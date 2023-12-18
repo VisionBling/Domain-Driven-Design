@@ -22,7 +22,7 @@ namespace Domain.Subscriptions
         {
             this.SubscriptionID = SubscriptionID;
             this.SubscriptionName = SubscriptionName;
-            SubscriptionType = SubscriptionType;
+            this.SubscriptionType = SubscriptionType;
             CreatedDate = CreatedDate;
         }
     }
