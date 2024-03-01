@@ -22,8 +22,8 @@ namespace Domain.Subscriptions
         {
             this.SubscriptionID = SubscriptionID;
             this.SubscriptionName = SubscriptionName;
-            this.SubscriptionType = SubscriptionType;
-            this.CreatedDate = CreatedDate;
+            //this.SubscriptionType = SubscriptionType;
+           // this.CreatedDate = CreatedDate;
         }
     }
 }
