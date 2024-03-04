@@ -8,7 +8,7 @@ namespace Domain.Payment
 {
     public class PayementStatus
     {
-        public PayementStatus() { }
+       // public PayementStatus() { }
 
        // public PayementStatus(int id) { }
        // public int Id { get; set; }
