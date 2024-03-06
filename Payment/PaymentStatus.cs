@@ -23,7 +23,7 @@ namespace Domain.Payment
 
         public string PostalCode { get; set; }
         public string Country { get; set; }
-        //public string Phone { get; set; }
+        public string Phone { get; set; }
 
         //public string Fax { get; set; }
        // public string FaxNumber { get; set;}
