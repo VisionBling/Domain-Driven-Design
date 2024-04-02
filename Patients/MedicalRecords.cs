@@ -10,5 +10,6 @@ namespace Domain.Patients
     {
         public MedicalRecords() { }
         public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
