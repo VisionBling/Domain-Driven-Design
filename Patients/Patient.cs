@@ -14,7 +14,6 @@ namespace Domain.Patients
         public DateTime DateOfBirth { get; private set; }
         public ICollection<MedicalRecords> MedicalRecords { get; private set; }
 
-        // Constructor and methods
         public Patient(Guid id, string name, string species, DateTime dateOfBirth)
         {
             Id = id;
