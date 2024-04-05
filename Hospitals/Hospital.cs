@@ -10,7 +10,6 @@ namespace Domain.Hospitals
     {
      public Hospital() { }
 
-     public Hospital(string name) { }
 
      public int Id { get; set; }
      public string Name { get; set; }
