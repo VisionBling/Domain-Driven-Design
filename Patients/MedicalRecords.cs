@@ -9,7 +9,6 @@ namespace Domain.Patients
     public class MedicalRecords
     {
         public MedicalRecords() { }
-        public MedicalRecords(int id) { }
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
