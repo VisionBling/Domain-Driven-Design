@@ -10,6 +10,7 @@ namespace Domain.Subscriptions
 {
     public class Subscription
     {
+        public Subscription() { }
        public int SubscriptionID { get; set; }
        public string SubscriptionName { get; set; }
 
