@@ -11,6 +11,7 @@ namespace Domain.Subscriptions
     public class Subscription
     {
         public Subscription() { }
+        public Subscription(string name) { }
        public int SubscriptionID { get; set; }
        public string SubscriptionName { get; set; }
 
