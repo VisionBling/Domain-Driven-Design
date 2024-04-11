@@ -10,6 +10,7 @@ namespace Domain.Subscriptions
 {
     public class Subscription
     {
+        public Subscription(string name) { }
        public int SubscriptionID { get; set; }
        public string SubscriptionName { get; set; }
 
@@ -17,6 +18,7 @@ namespace Domain.Subscriptions
 
         public DateTime CreatedDate { get; set; }
 
+        // Constructor and methods
         public Subscription(int SubscriptionID, string SubscriptionName, string SubscriptionType, DateTime CreatedDate)
         {
             this.SubscriptionID = SubscriptionID;
