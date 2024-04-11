@@ -17,7 +17,6 @@ namespace Domain.Subscriptions
 
         public DateTime CreatedDate { get; set; }
 
-        // Constructor and methods
         public Subscription(int SubscriptionID, string SubscriptionName, string SubscriptionType, DateTime CreatedDate)
         {
             this.SubscriptionID = SubscriptionID;
