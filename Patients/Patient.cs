@@ -23,9 +23,9 @@ namespace Domain.Patients
             MedicalRecords = new List<MedicalRecords>();
         }
 
-        public void AddMedicalRecord(MedicalRecords record)
-        {
-            MedicalRecords.Add(record);
-        }
+        //public void AddMedicalRecord(MedicalRecords record)
+        //{
+        //    MedicalRecords.Add(record);
+        //}
     }
 }
