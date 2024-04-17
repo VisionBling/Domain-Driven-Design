@@ -9,6 +9,7 @@ namespace Domain.Hospitals
     public class Veterinarian
     {
 
+        public Veterinarian() { }
 
         public int Id { get; set; }
 
