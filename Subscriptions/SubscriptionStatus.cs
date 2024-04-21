@@ -11,7 +11,6 @@ namespace Domain.Subscriptions
 
 
         public SubscriptionStatus() { }
-        public SubscriptionStatus() { }
 
 
         public int Id { get; set; }
