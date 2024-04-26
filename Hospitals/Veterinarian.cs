@@ -11,7 +11,6 @@ namespace Domain.Hospitals
 
 
 
-        public string Description { get; set; }
 
 
     }
