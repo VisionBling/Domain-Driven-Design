@@ -8,7 +8,6 @@ namespace Domain.Hospitals
 {
     public class Hospital
     {
-     public int Id { get; set; }
 
 
     }
