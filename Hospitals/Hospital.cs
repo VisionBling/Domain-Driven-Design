@@ -9,6 +9,7 @@ namespace Domain.Hospitals
     public class Hospital
     {
 
+        public Hospital() { }
      public int Id { get; set; }
      public string Name { get; set; }
     public string Description { get; set; }
