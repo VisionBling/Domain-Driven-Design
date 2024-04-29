@@ -8,7 +8,6 @@ namespace Domain.Patients
 {
     public class Patient
     {
-        public Patient() { }
         public Guid Id { get; private set; }
         public string Name { get; private set; }
         public string Species { get; private set; } // e.g., Dog, Cat
