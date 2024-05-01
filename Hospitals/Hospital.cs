@@ -9,7 +9,6 @@ namespace Domain.Hospitals
     public class Hospital
     {
 
-    public DateTime Datecreated { get; set; }
 
     }
 }
