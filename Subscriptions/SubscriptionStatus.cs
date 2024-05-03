@@ -10,7 +10,6 @@ namespace Domain.Subscriptions
     {
 
 
-        public string TypeDescription { get; set; }
 
 
 
