@@ -8,5 +8,6 @@ namespace Domain.Payment
 {
     public class Reciept
     {
+        public string? Address { get; set; }
     }
 }
