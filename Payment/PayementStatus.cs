@@ -9,5 +9,7 @@ namespace Domain.Payment
     public class PayementStatus
     {
         public PayementStatus() { }
+
+        public PayementStatus(int id) { }
     }
 }
