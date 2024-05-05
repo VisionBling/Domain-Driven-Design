@@ -11,5 +11,6 @@ namespace Domain.Payment
         public PayementStatus() { }
 
         public PayementStatus(int id) { }
+        public int Id { get; set; }
     }
 }
