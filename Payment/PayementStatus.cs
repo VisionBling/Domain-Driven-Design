@@ -27,7 +27,6 @@ namespace Domain.Payment
 
         public string Fax { get; set; }
         public string FaxNumber { get; set;}
-        public string PhoneNumber { get; set;}
 
     }
 }
