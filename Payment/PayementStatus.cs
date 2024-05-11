@@ -25,7 +25,6 @@ namespace Domain.Payment
         public string Country { get; set; }
         public string Phone { get; set; }
 
-        public string Fax { get; set; }
 
     }
 }
