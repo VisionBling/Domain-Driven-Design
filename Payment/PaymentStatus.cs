@@ -8,7 +8,6 @@ namespace Domain.Payment
 {
     public class PaymentStatus
     {
-        public PaymentStatus() { }
 
 
 
