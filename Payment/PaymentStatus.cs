@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Payment
 {
-    public class PaymentStatus
+    public class PayementStatus
     {
-        public PaymentStatus() { }
+        public PayementStatus() { }
 
-        public PaymentStatus(int id) { }
+        public PayementStatus(int id) { }
         public int Id { get; set; }
         public string Name { get; set; }
 
@@ -23,7 +23,9 @@ namespace Domain.Payment
 
         public string PostalCode { get; set; }
         public string Country { get; set; }
+        public string Phone { get; set; }
 
+        public string Fax { get; set; }
 
     }
 }
