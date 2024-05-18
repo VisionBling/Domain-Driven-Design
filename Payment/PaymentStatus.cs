@@ -10,6 +10,7 @@ namespace Domain.Payment
     {
         public PayementStatus() { }
 
+        public PayementStatus(int id) { }
 
 
 
