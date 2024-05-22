@@ -19,7 +19,6 @@ namespace Domain.Payment
         public string? Currency { get; set; }
         public string? CurrencyCode { get; set;}
         public string? CurrencyName { get; set;}
-        public string? CurrencyDescription { get; set;}
 
 
     }
