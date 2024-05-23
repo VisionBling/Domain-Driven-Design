@@ -13,6 +13,7 @@ namespace Domain.Payment
         public string? Description { get; set; }
         public string? Address { get; set; }
 
+        public int? Amount { get; set; } = 0;
 
 
     }
