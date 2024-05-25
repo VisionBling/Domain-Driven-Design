@@ -14,7 +14,6 @@ namespace Domain.Payment
         public string? Address { get; set; }
 
         public int? Amount { get; set; } = 0;
-        public int? Balance { get; set;} = 0;
 
 
 
