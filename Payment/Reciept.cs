@@ -16,7 +16,6 @@ namespace Domain.Payment
         public int? Amount { get; set; } = 0;
         public int? Balance { get; set;} = 0;
         public int? TotalBalance { get; set;}   
-        public string? Currency { get; set; }
 
 
 
