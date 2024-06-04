@@ -16,7 +16,7 @@ namespace Domain.Hospitals
         public string Description { get; set; }
 
         public int VeterinarianId { get; set; }
-        public Veterinarian() { }
+        //public Veterinarian() { }
 
 
     }
