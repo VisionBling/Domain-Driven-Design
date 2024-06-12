@@ -21,7 +21,7 @@ namespace Domain.Subscriptions
         public Subscription(int SubscriptionID, string SubscriptionName, string SubscriptionType, DateTime CreatedDate)
         {
             this.SubscriptionID = SubscriptionID;
-            this.SubscriptionName = SubscriptionName;
+            //this.SubscriptionName = SubscriptionName;
             //this.SubscriptionType = SubscriptionType;
             //this.CreatedDate = CreatedDate;
         }
